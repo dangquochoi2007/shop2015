@@ -1,14 +1,19 @@
 
-/*
-var
-*/
-$font-stack: 100% Helvetica, sans-serif;
-$bg-body-color: #fff;
-$bg-nav-color: #efefef;
+
+// Define values screen
+
+$screen-sm-min : 768px;
+$screen-xs-max : ($screen-sm-min - 1);
+$screen-md-min : 992px;
+$screen-sm-max : ($screen-md-min -1);
+$screen-lg-min : 1200px;
+$screen-md-max : ($screen-lg-min - 1);
 
 
-body {
-  font: $font-stack;
-  background-color: $bg-body-color;
-};
+
+$small-range : (0em, 40em);
+$medium-range : (40.063em, 64em);
+$large-range : (64.063em, 90em);
+$xlarge-range : (90.063em, 120em);
+$xxlarge-range : (120.063em)
 

@@ -1,5 +1,32 @@
-@import "__reset";
-
-
-body {
+@import "skeleton";
+//sass --watch a.scss:a.css --style compressed
+#topbar {
+  background: none repeat scroll 0 0 #000;
+  color: #FFF;
+  font-size: 16px;
+  padding: 10px 0 0;
+  border-bottom: 3px solid #FA9221;
+  ul {
+    margin: 5px 0 0;
+  }
+  a {
+    color: #9F9F9F;
+  }
+  a:hover {
+    color: #F89223;
+  }
+  .user-links {
+    .webcome {
+      padding: 10px;
+    }
+    ul {
+      background: none repeat scroll 0 0 #FA9221;
+      margin: 0;
+      padding: 10px;
+    }
+    a {
+      color: #fff;
+    }
+  }
 }
+
